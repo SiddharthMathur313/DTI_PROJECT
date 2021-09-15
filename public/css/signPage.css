@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.half_marker{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: aqua solid 5px; /* will remove it*/
+    box-shadow: 10px 10px 10px 10px #888888;
+   
+   
+ 
+ }
+ 
+ 
+  
+ .split_left{
+   
+    height: 100%;
+   width: 50%;
+   position: absolute;
+   background-color:yellow;
+   color: aliceblue;
+ 
+  
+ }
+ 
+ .split_right{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0px;
+   
+ 
+ }
+ 
+ 
+ .login_heading{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+ 
+    
+ }
+ 
+
+
+#username_signin{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-width:0px;
+    border:none;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+    border-bottom: purple 2px solid;
+
+}
+
+
+ 
+ #email_signin{
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-width:0px;
+    border:none;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+    border-bottom: purple 2px solid;
+ }
+ 
+ #password_signin{
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    border-width:0px;
+    border:none;
+    outline: none;
+    border-bottom: purple 2px solid;
+    padding: 5px;
+    font-size: 20px;
+ 
+ }
+ 
+ 
+ 
+ #submit_signin{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 6%;
+    border-radius: 10px;
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(123,28,147,1) 46%, rgba(211,88,221,1) 82%, rgba(83,69,252,1) 100%);
+    color: wheat; */
+    
+ }
+ 

@@ -1,0 +1,170 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+  
+}
+
+
+.half_marker{
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   width: 80%;
+   height: 80%;
+   border: aqua solid 5px; /* will remove it*/
+   box-shadow: 10px 10px 10px 10px #888888;
+  
+  
+
+}
+
+
+ 
+.split_left{
+  
+   height: 100%;
+  width: 50%;
+  position: absolute;
+  background-color:grey;
+  color: aliceblue;
+
+ 
+}
+
+.split_right{
+   height: 100%;
+   width: 50%;
+   position: absolute;
+   right: 0px;
+   background-color: white;
+  
+
+}
+
+
+.login_heading{
+   position: absolute;
+   top: 10%;
+   left: 10%;
+
+   
+}
+
+
+#email_login{
+   width: 80%;
+   position: absolute;
+   top: 30%;
+   left: 10%;
+   border-width:0px;
+   border:none;
+   padding: 5px;
+   font-size: 20px;
+   outline: none;
+   border-bottom: purple 2px solid;
+}
+
+#password_login{
+   width: 80%;
+   position: absolute;
+   top: 40%;
+   left: 10%;
+   border-width:0px;
+   border:none;
+   outline: none;
+   border-bottom: purple 2px solid;
+   padding: 5px;
+   font-size: 20px;
+
+}
+
+
+
+#submit_login{
+   width: 80%;
+   position: absolute;
+   top: 50%;
+   left: 10%;
+   height: 6%;
+   border-radius: 10px;
+
+   background: #12c2e9;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+
+   font-size: 20px;
+   color: white;
+}
+
+
+#link_sign{
+   width: 80%;
+   position: absolute;
+   top: 60%;
+   left: 10%;
+
+
+}
+
+canvas{
+   position:fixed;
+ 
+ }
+
+.google_login{
+   position:absolute;
+   width: 80%;
+   left: 10%;
+   background-color: navy;
+   font-size: 20px;
+   height: 6%;
+   top: 80%;
+  
+   
+}
+
+
+.OR{
+   position:absolute;
+   font-size: 20px;
+   left: 40%;
+   top:70%;
+
+}
+
+
+
+.google_img{
+   width: 23px;
+   height: 23px;
+   position: absolute;
+   left: 30px;
+   top:3px
+   
+}
+
+
+.google_login a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+
+.yahoo_login{
+   position:absolute;
+   width: 80%;
+   left: 10%;
+   background-color: navy;
+   font-size: 20px;
+   height: 6%;
+   top: 90%;
+  
+   
+}
+
+.yahoo_login a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
