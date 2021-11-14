@@ -11,12 +11,13 @@ import * as facebooktime from 'passport-facebook'
 import passport from 'passport';
 import jwt from 'jsonwebtoken';
 import * as localtime from 'passport-local';
+import Commerce from '@chec/commerce.js';
 
 var LocalStrategy =localtime.Strategy;
 
 
 var Strategy2 = yahootime.Strategy;
-
+const commerce = new Commerce('{pk_35769ecf708f43e1c0ad178a866e55560720009e5d856}');
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -274,7 +275,7 @@ app.post("/",function(req,res){
 
     if(err){
       console.log("no");
-      res.redirect("/");s
+      res.redirect("/");
 
     }
     else if(!user){
@@ -300,11 +301,23 @@ app.post("/",function(req,res){
 
 
 
+app.get("/Order",function(req,res){
+  res.sendFile(__dirname+"/html/OrderPage.html");
+
+
+});
+
+// app.get("/",function(){
+
+// })
+
+
 app.get("*",function(req,res){
   res.sendFile(__dirname+"/html/Error404.html");
 
 
 });
+
 
 
 
