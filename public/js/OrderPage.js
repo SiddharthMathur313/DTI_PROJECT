@@ -35,12 +35,15 @@ function getRandomString(length) {
 
 function sendEmail(){
 	emailjs.send("service_dkch45r","template_ddyh2hh",{
+		to_person_email:"",
 		to_name:"",
 		O_id:"#"+getRandomString(10),
 		user_name:"",
 		user_address:"",
 		user_phone:"",
-		Your_Order_details:"",
+		Fruits:"",
+		Medicine:"",
+		snack_Groceries:"",
 		Phone_number:""
 		})
 }
