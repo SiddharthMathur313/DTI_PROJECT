@@ -14,17 +14,18 @@ function getRandomString(length) {
     return result;
 }
 
+
 function sendEmail(){
 	emailjs.send("service_dkch45r","template_ddyh2hh",{
-		to_person_email:"",
+		to_person_email:document.querySelector(".userEmail").value,
 		to_name:array[4],
 		O_id:"#"+getRandomString(20),
-		user_name:"akshat",
-		user_address:" ",
-		user_phone:"674351290872",
-		Fruits:"1kg-Apple washington 1kg-Guava 1kg-Jackfruit",
-		Medicine:"Vit E:100 mg  Vit E:600mg  Amodiaquine:200 mg  Betamethasone Sodium Phosphate:0.5 mg",
-		snack_Groceries:"1kg pencils and 2kg snack",
+		user_name:document.querySelector(".username").value,
+		user_address:document.querySelector(".useraddress").value,
+		user_phone:document.querySelector(".userphone").value,
+		Fruits:document.querySelector("#notepad").value,
+		Medicine:document.querySelector("#notepad2").value,
+		snack_Groceries:document.querySelector("#notepad3").value,
 		Phone_number:Math.floor(Math.random() * 9000000000) + 1000000000
 		})
 }
