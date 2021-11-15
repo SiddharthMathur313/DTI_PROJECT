@@ -16,9 +16,9 @@ function getRandomString(length) {
 
 function sendEmail(){
 	emailjs.send("service_dkch45r","template_ddyh2hh",{
-		to_person_email:"siddharthmathur854@gmail.com",
+		to_person_email:"",
 		to_name:array[4],
-		O_id:"#"+getRandomString(10),
+		O_id:"#"+getRandomString(20),
 		user_name:"akshat",
 		user_address:" ",
 		user_phone:"674351290872",
