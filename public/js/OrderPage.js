@@ -20,7 +20,7 @@ function sendEmail(){
 		to_name:array[4],
 		O_id:"#"+getRandomString(10),
 		user_name:"akshat",
-		user_address:"513 navniiti apts , 51 ip extenions,ip 51 ",
+		user_address:" ",
 		user_phone:"674351290872",
 		Fruits:"1kg-Apple washington 1kg-Guava 1kg-Jackfruit",
 		Medicine:"Vit E:100 mg  Vit E:600mg  Amodiaquine:200 mg  Betamethasone Sodium Phosphate:0.5 mg",
