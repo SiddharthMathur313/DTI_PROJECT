@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@chec/commerce.js": "^2.8.0",
     "@magic-sdk/admin": "^1.3.0",
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",
