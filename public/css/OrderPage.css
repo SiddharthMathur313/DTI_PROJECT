@@ -145,3 +145,14 @@ body{
 
 
 
+.breaker{
+    height: 10px;
+    background-color: red;
+
+}
+
+#notepad{
+    position: absolute;
+    top: 80%;
+
+}

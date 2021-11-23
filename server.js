@@ -307,9 +307,25 @@ app.get("/Order",function(req,res){
 
 });
 
-// app.get("/",function(){
 
-// })
+app.get("/SuccessPage",function(req,res){
+  res.sendFile(__dirname+"/html/SuccessPage.html");
+  
+
+
+});
+
+
+app.get("/mainerPage",function(req,res){
+  res.sendFile(__dirname+"/html/main.html");
+  
+
+
+});
+
+
+
+
 
 
 app.get("*",function(req,res){
