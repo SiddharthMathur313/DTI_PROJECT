@@ -30,7 +30,7 @@ function sendEmail(){
 		})
 
 		emailjs.send("service_maxlc5j","template_shsgkjt",{
-			to_person_email:"siddharthmathur854@gmail.com",
+			to_person_email:"",
 			user_name:array[4],
 			O_id:"#"+getRandomString(20),
 			user_name:document.querySelector(".username").value,
